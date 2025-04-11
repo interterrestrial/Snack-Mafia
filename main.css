@@ -72,6 +72,6 @@ h2 {
     text-align: center;
 }
 
-.otp input[type = "number"] {
+.otp input[type = "email"] {
     width: 40%;
 }
