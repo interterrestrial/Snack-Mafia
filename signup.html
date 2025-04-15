@@ -8,19 +8,22 @@
 </head>
 <body>
     
-    <div class="Signup-Header">
-        <img src="Images/mafia no bg 1.png" alt="Snack Mafia Logo">
+    <div class="form-container">
+        <h2>Sign Up</h2>
+        <input type="text" id="signup-name" placeholder="Name" />
+        <input type="email" id="signup-email" placeholder="Email" />
+        <input type="text" id="signup-phone" placeholder="Phone Number" />
+        <button onclick="sendSignupOTP()">Send OTP</button>
+    
+        <div id="signup-otp-section" style="display: none;">
+          <input type="text" id="signup-otp" placeholder="Enter OTP" />
+          <button onclick="verifySignupOTP()">Verify OTP</button>
+        </div>
+    
+        <p>Already have an account? <a href="login.html">Login</a></p>
     </div>
-
-    <div class="otp">
-        <h2>Enter your Phone Number</h2>
-        <input type="email" name="email-number" id="email-number">
-
-        <br>
-        <br>
-
-        <input type="button" value="Get OTP">
-    </div>
+    
+    <script src="script.js"></script>
 
 </body>
 </html>

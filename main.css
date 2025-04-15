@@ -48,30 +48,3 @@ footer p {
     font-family: 'Jersey 25';
     font-size: 30px;
 }
-
-
-
-
-
-.Signup-Header {
-    display: flex;
-    justify-content: center;
-}
-
-.otp {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-h2 {
-    font-family: 'Jersey 25';
-    color: #fff;
-    font-size: 60px;
-    text-align: center;
-}
-
-.otp input[type = "email"] {
-    width: 40%;
-}

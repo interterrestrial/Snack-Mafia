@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snack Mafia- Login</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Login</h2>
+        <input type="text" id="login-phone" placeholder="Phone Number" />
+        <button onclick="sendLoginOTP()">Send OTP</button>
+    
+        <div id="login-otp-section" style="display: none;">
+          <input type="text" id="login-otp" placeholder="Enter OTP" />
+          <button onclick="verifyLoginOTP()">Verify OTP</button>
+        </div>
+    
+        <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
